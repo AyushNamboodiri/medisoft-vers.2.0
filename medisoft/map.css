@@ -1,0 +1,11 @@
+* {
+    background: url(pexels-codioful-\(formerly-gradienta\)-7130478.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.map {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+}

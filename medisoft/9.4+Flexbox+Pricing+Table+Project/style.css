@@ -1,0 +1,55 @@
+ul i a{
+    text-decoration: none;
+}
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+    height: 100vh;
+    gap: 1rem;   
+}
+.pricing-plan {
+    flex: 1rem;
+    padding: 100px;
+    background-color: antiquewhite;
+    border: 10px solid rgb(169, 139, 139);
+    border-radius: 12px;
+    
+}
+.plan-title {
+    text-decoration: brown;
+    text-shadow: 12px;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.plan-price {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 19px;
+}
+.plan-features {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline;
+    font-style: italic;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.plan-button {
+    padding: 10px;
+    margin: 1px;
+    background-color: #000;
+    color: aliceblue;
+    border: 1px solid;
+    border-radius: 12px;
+    
+}
+@media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }

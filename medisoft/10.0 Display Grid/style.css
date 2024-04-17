@@ -1,0 +1,22 @@
+.container {
+    border-radius: 12px;
+    width:100px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr/1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+}
+.white {
+    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+    background-color: #f0d9b5;
+    border: 1px solid black;
+  }
+
+  .black {
+    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+    background-color: #b58863;
+    border: 1px solid black;
+  }

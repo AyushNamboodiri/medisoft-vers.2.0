@@ -1,0 +1,65 @@
+* {
+    color: aliceblue;
+    font-family: poppins;
+}
+body {
+    background-image: url(cover-wallpaper-anime.jpg.webp);
+}
+.heading {
+    font-size: 70px;
+    font-weight: bolder;
+    text-align:center;
+    color: black;
+    margin-top: 0px;
+}
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 1px;
+    gap: 1rem;
+}
+.Pricing-pakage {
+    border: 2px solid;
+    background-color: rgba(20,21,25,255);
+    margin: 10px;
+    padding: 10px;
+}
+.plan-name {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+}
+.price {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.taxes {
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 20px;
+}
+.trail {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(234,188,73,255);
+    border: 1px solid rgba(48,43,31,255);
+    border-width: thin;
+    height: 12px;
+    margin: 19px;
+}
+ul {
+    list-style-type: none;
+}
+.second {
+    padding: 10px;
+        background-color: rgba(250,184,25,255);
+        color: black;
+        border: 1px solid rgba(48,43,31,255);
+        height: 29px;
+        margin: 19px;
+}
